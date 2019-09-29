@@ -4,10 +4,10 @@ This project aims to provide a simple Docker image to encapsulate and run an [ik
 
 ### Run ikos
 
-#### Run core checks
+#### Run all checks
 Assuming current directory contains the source code to analyze, simply run the following command:
 ```Dockerfile
-docker run --rm -v ${PWD}:/src facthunder/ikos:latest "ikos . 2> report.xml"
+docker run --rm -v ${PWD}:/src facthunder/ikos:latest ikos file.c > report.txt
 ```
 
 ### Versions matrix
