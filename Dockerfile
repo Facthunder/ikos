@@ -2,7 +2,7 @@
 # BUILD STAGE
 #------------------------------#
 
-FROM ubuntu:19.04 AS base
+FROM ubuntu:19.10 AS base
 
 ARG njobs=2
 ARG build_type=Release
@@ -40,7 +40,7 @@ RUN cmake \
 # FINAL STAGE
 #------------------------------#
 
-FROM ubuntu:19.04
+FROM ubuntu:19.10
 
 COPY --from=base /opt/ikos /opt/ikos
 

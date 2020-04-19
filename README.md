@@ -15,8 +15,8 @@ Here is the versions matrix of the image:
 
 |                          TAG                           |                       IKOS VERSION                       |                        BASE IMAGE                      |
 |:------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------:|
-|   [latest](https://hub.docker.com/r/facthunder/ikos)   | [3.0](https://github.com/NASA-SW-VnV/ikos/releases/tag/v3.0) | [ubuntu:19.04](https://hub.docker.com/_/ubuntu) |
-|    [3.0](https://hub.docker.com/r/facthunder/ikos)     | [3.0](https://github.com/NASA-SW-VnV/ikos/releases/tag/v3.0) | [ubuntu:19.04](https://hub.docker.com/_/ubuntu) |
+|   [latest](https://hub.docker.com/r/facthunder/ikos)   | [3.0](https://github.com/NASA-SW-VnV/ikos/releases/tag/v3.0) | [ubuntu:19.10](https://hub.docker.com/_/ubuntu) |
+|    [3.0](https://hub.docker.com/r/facthunder/ikos)     | [3.0](https://github.com/NASA-SW-VnV/ikos/releases/tag/v3.0) | [ubuntu:19.10](https://hub.docker.com/_/ubuntu) |
 |    [2.2](https://hub.docker.com/r/facthunder/ikos)     | [2.2](https://github.com/NASA-SW-VnV/ikos/releases/tag/v2.2) | [ubuntu:19.04](https://hub.docker.com/_/ubuntu) |
 
 
